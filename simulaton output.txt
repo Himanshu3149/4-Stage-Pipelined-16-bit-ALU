@@ -1,0 +1,14 @@
+Time =  0, F =  x
+Time = 27, F =  8
+Time = 47, F = 24
+Time = 67, F =  3
+Time = 87, F = 14
+Time = 107, F =  3
+Time = 127, F = 38
+mem[125]=  8
+mem[126]= 24
+mem[127]= 14
+mem[128]=  3
+mem[129]=  3
+mem[130]= 38
+testbench.sv:50: $finish called at 300 (1s)
