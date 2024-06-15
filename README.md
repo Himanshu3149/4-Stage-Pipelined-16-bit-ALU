@@ -1,5 +1,5 @@
 # 4-Stage-Pipelined-16-bit-ALU
---> Inputs: 3 register addresses (rs1, rs2, rd)
+--> Inputs: 3 register addresses (rs1, rs2, rd) <br/>
 	    An ALU Function (func)
 	    A memory address
 
