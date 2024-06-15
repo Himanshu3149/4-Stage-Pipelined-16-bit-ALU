@@ -1,15 +1,15 @@
 ## 4-Stage-Pipelined-16-bit-ALU
---> Inputs: 3 register addresses (rs1, rs2, rd) <br/>
+#--> Inputs: 3 register addresses (rs1, rs2, rd) <br/>
 	    An ALU Function (func)  <br/>
 	    A memory address  <br/>
 
---> Stages of Pipeline  <br/>
+#--> Stages of Pipeline  <br/>
 (1) Stage-1: Read two 16-bit numbers from the registers specified by "rs1" and "rs2". Store them in "A" and "B" respectively.  <br/>
 (2) Stage-2: Perform an ALU Operation specified by "func". Store it in "Z".  <br/>
 (3) Stage-3: Write the value of "Z" in register specified by "rd".  <br/>
 (4) Stage-4: Also write the value of "Z" in memory location "'addr".  <br/>
 
---> Assumptions:  <br/>
+#--> Assumptions:  <br/>
 -> Register bank contains 16 16-bit registers.  <br/>
 -> 4 bits are required to specify a register address.
 -> Two registers read and One register write can be performed every clock cycle. <br/>
